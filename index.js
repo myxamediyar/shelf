@@ -70,4 +70,4 @@ function shelf_merge(shelf, incoming) {
     }
 }
 
-if (typeof module != 'undefined') module.exports = shelf_merge
+if (typeof module != 'undefined') module.exports = {shelf_merge}
